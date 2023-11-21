@@ -1,0 +1,198 @@
+.telivizorlar {
+    max-width: 1440px;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 300px;
+    margin-bottom: 32px;
+    padding-right: auto;
+    .telivizorlar__insklopedia {
+        max-width: 220px;
+        height: 190px;
+        padding: 12px;
+        border: 1px solid transparent;
+        transition: all 0.5s;
+        cursor: pointer;
+        .button {
+            color: #fff;
+            padding: 6px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            background-color: rgb(34, 184, 34);
+        }
+        .oyiga {
+            color: rgb(1, 19, 97);
+            padding: 5px;
+            border: 1px solid rgb(1, 19, 97);
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        > img {
+            margin-top: 5px;
+        }
+        p {
+            color: gray;
+            margin-top: 20px;
+        }
+        .telivizorlar__insklopedi-img {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            span {
+                color: gray;
+                margin-left: 3px;
+            }
+        }
+        .telivizorlar__insklopedi-buttons {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            gap: 8px;
+        }
+        .telivizorlar__insklopedi-buttonds__buton1 {
+            background-color: red;
+            padding: 10px 16px;
+            border-radius: 10px;
+            transition: all 0.5s;
+        }
+        .telivizorlar__insklopedi-buttonds__buton1:hover {
+            background-color: rgb(255, 77, 77);
+        }
+        .telivizorlar__insklopedi-buttonds__buton2 {
+            background-color: rgb(185, 185, 185);
+            padding: 10px 16px;
+            border-radius: 10px;
+            transition: all 0.5s;
+        }
+        .telivizorlar__insklopedi-buttonds__buton2:hover {
+            background-color: rgb(235, 235, 235);
+        }
+    }
+}
+.heroo__container {
+    max-width: 1440px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 250px;
+    .heroo__container-info {
+        max-width: 1440px;
+        gap: 20px;
+        display: flex;
+    }
+    h2 {
+        margin-bottom: 20px;
+    }
+    .heroo__insklopedia {
+        max-width: 250px;
+        height: 190px;
+        padding: 12px;
+        border: 1px solid transparent;
+        transition: all 0.5s;
+        cursor: pointer;
+        .button {
+            color: #fff;
+            padding: 6px;
+            margin-bottom: 15px;
+            border-radius: 10px;
+            background-color: rgb(255, 0, 0);
+        }
+        img {
+            margin-top: 5px;
+            margin-bottom: 20px;
+        }
+        .oyiga {
+            color: rgb(1, 19, 97);
+            padding: 5px;
+            border: 1px solid rgb(1, 19, 97);
+            border-radius: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        p {
+            color: gray;
+            margin-top: 20px;
+        }
+        .heroo__insklopedi-img {
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            span {
+                color: gray;
+                margin-left: 3px;
+            }
+        }
+        .heroo__insklopedi-buttons {
+            display: flex;
+            align-items: center;
+            margin-top: 15px;
+            gap: 8px;
+        }
+        .heroo__insklopedi-buttonds__buton1 {
+            background-color: red;
+            padding-top: 10px;
+            padding-right: 16px;
+            padding-bottom: 1px;
+            padding-left: 16px;
+            border-radius: 10px;
+            transition: all 0.5s;
+        }
+        .heroo__insklopedi-buttonds__buton1:hover {
+            background-color: rgb(248, 58, 58);
+        }
+        .heroo__insklopedi-buttonds__buton2 {
+            background-color: rgb(185, 185, 185);
+            padding-top: 10px;
+            padding-right: 16px;
+            padding-bottom: 1px;
+            padding-left: 16px;
+            border-radius: 10px;
+            transition: all 0.5s;
+        }
+        .heroo__insklopedi-buttonds__buton2:hover {
+            background-color: rgb(236, 236, 236);
+        }
+    }
+}
+
+.hero__buttom {
+   max-width: 1440px;
+   margin-left: auto;
+   margin-right: auto;
+   margin-bottom: 100px;
+   h2 {
+    margin-bottom: 30px;
+   }
+   .hero__buttom-container {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+   }
+   .hero__buttom-noutbuk {
+    max-width: 250px;
+    border: 1px solid transparent;
+    transition: all 0.5s;
+    cursor: pointer;
+    padding: 12px;
+    .som {
+        padding: 5px;
+        color: rgb(255, 98, 7);
+        background-color: rgb(255, 219, 197);
+        border-radius: 10px;
+    }
+    p {
+        margin-top: 15px;
+    }
+    .heroo__buttom-img {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+        margin-bottom: 15px;
+    }
+   }
+}
+
+

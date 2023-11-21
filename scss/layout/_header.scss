@@ -1,0 +1,109 @@
+header {
+//  position: fixed;
+}
+
+
+.header__container {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .header__search-input {
+        display: flex;
+        position: relative;
+        .header_bars {
+            background: rgb(255, 38, 0);
+            border-radius: 16px;
+            padding: 15px 15px;
+            margin-right: 20px;
+            margin-left: 0px;
+            cursor: pointer;
+            a {
+                color: white;
+                img {
+                    margin-right: 10px;
+                }
+            }
+        }
+        input {
+            border-radius: 10px;
+            border: 1px solid rgba(154, 154, 154, 0.4);
+            padding: 15px 250px 15px 10px;
+        }
+
+        .img-search__deafult {
+            background: rgb(255, 38, 0);
+            width: 65px;
+            height: 45px;
+            padding: 13px 20px 13px 20px;
+            border-radius: 12px;
+            display: block;
+            margin-left: -70px;
+            margin-top: 5px;
+            position: absolute;
+            cursor: pointer;
+
+            img {
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+
+    .header__nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+
+        .header__box {
+            margin-right: 10px;
+            a {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: #000;
+        }
+    }
+    
+    .header__kilo {
+        margin-right: 10px;
+        a {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            color: #000;
+        }
+    }
+    
+    .header__basket {
+        margin-right: 10px;
+        a {
+            display: flex;
+            align-items: center;
+            flex-direction: column;    
+            color: #000;
+        }
+    }
+    
+    .header__like {
+        margin-right: 10px;
+        a {
+                display: flex;
+                align-items: center;
+                flex-direction: column;       
+                color: #000;
+            }
+        }
+        
+        .header__user {
+            a {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                color: #000;
+            }
+        }
+    }
+}

@@ -1,0 +1,665 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.comyuters__one__container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  gap: 20px;
+  margin-bottom: 100px;
+}
+.comyuters__one__container h2 {
+  margin-bottom: 30px;
+}
+.comyuters__one__container .comyuters__one__container--list__comp:hover {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 20px;
+  box-shadow: 5px 5px 50px 10px rgb(230, 230, 230);
+}
+.comyuters__one__container .comyuters__one__container--list__comp {
+  min-width: 250px;
+  border: 1px solid transparent;
+}
+.comyuters__one__container .comyuters__one__container--list {
+  max-width: 1440px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  text-align: center;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.comyuters__one__container .comyuters__one__container--list p {
+  margin-top: 20px;
+}
+.comyuters__one__container .comyuters__one__container--list .comyuters__one__container--list__comp-button {
+  background-color: rgb(221, 218, 218);
+  padding: 14px;
+  padding-left: 0px;
+  gap: 8px;
+  border-radius: 10px;
+}
+.comyuters__one__container .comyuters__one__container--list .comyuters__one__container--list__comp-button .moon1 {
+  margin-top: 3px;
+  margin-bottom: 3px;
+  margin-left: 0px;
+  padding: 9px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+.brend {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  margin-bottom: 100px;
+}
+.brend h2 {
+  margin-bottom: 40px;
+}
+.brend .brend__brend a:hover {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 10px;
+  box-shadow: 5px 5px 50px 10px rgb(207, 207, 207);
+}
+.brend .brend__brend {
+  max-width: 1440px;
+}
+.brend .brend__brend a {
+  padding: 35px;
+  transition: all 0.5s;
+  border-radius: 20px;
+  margin-right: 30px;
+  border: 1px solid rgb(221, 218, 218);
+}
+
+.dastavka {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  margin-bottom: 200px;
+}
+.dastavka .dastavka__info {
+  max-width: 1440px;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dastavka .dastavka__info .dastavka__info-list {
+  padding: 20px;
+  max-width: 400px;
+  border-radius: 10px;
+  border: 1px solid rgb(207, 207, 207);
+  cursor: pointer;
+}
+.dastavka .dastavka__info .dastavka__info-list a {
+  padding: 12px;
+  border-radius: 6px;
+  margin-bottom: px;
+  background-color: rgb(255, 195, 167);
+}
+.dastavka .dastavka__info .dastavka__info-list h3 {
+  margin-top: 20px;
+}
+.dastavka .dastavka__info .dastavka__info-list p {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.hero__carousel {
+  margin-left: 70px;
+}
+
+.footer {
+  background-color: rgb(211, 211, 211);
+  background-image: url(../../img/bacground.png);
+  background-repeat: no-repeat;
+  background-position: 100% 10%;
+}
+
+.footer__container {
+  max-width: 1440px;
+  padding: 45px 15px 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer__container p {
+  margin-top: 15px;
+}
+.footer__container .footer__container_link {
+  gap: 10px;
+}
+
+.header__container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__container .header__search-input {
+  display: flex;
+  position: relative;
+}
+.header__container .header__search-input .header_bars {
+  background: rgb(255, 38, 0);
+  border-radius: 16px;
+  padding: 15px 15px;
+  margin-right: 20px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+.header__container .header__search-input .header_bars a {
+  color: white;
+}
+.header__container .header__search-input .header_bars a img {
+  margin-right: 10px;
+}
+.header__container .header__search-input input {
+  border-radius: 10px;
+  border: 1px solid rgba(154, 154, 154, 0.4);
+  padding: 15px 250px 15px 10px;
+}
+.header__container .header__search-input .img-search__deafult {
+  background: rgb(255, 38, 0);
+  width: 65px;
+  height: 45px;
+  padding: 13px 20px 13px 20px;
+  border-radius: 12px;
+  display: block;
+  margin-left: -70px;
+  margin-top: 5px;
+  position: absolute;
+  cursor: pointer;
+}
+.header__container .header__search-input .img-search__deafult img {
+  width: 24px;
+  height: 24px;
+}
+.header__container .header__nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.header__container .header__nav .header__box {
+  margin-right: 10px;
+}
+.header__container .header__nav .header__box a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+}
+.header__container .header__nav .header__kilo {
+  margin-right: 10px;
+}
+.header__container .header__nav .header__kilo a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+}
+.header__container .header__nav .header__basket {
+  margin-right: 10px;
+}
+.header__container .header__nav .header__basket a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+}
+.header__container .header__nav .header__like {
+  margin-right: 10px;
+}
+.header__container .header__nav .header__like a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+}
+.header__container .header__nav .header__user a {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: #000;
+}
+
+.navigation {
+  margin-bottom: 30px;
+}
+.navigation ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navigation ul a {
+  color: #535353;
+}
+.navigation ul a:hover {
+  color: #000;
+}
+.navigation ul li:first-child a {
+  background: rgb(129, 215, 0);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 16px;
+}
+.navigation ul li:first-child a:hover {
+  background: rgba(129, 215, 0, 0.6);
+}
+
+.kategoriy {
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.kategoriy .kategoriy__cards-contain {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.kategoriy .kategoriy__cards-contain .kategoriy__cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #dadada;
+  padding: 25px 15px;
+  border-radius: 20px;
+}
+.kategoriy .kategoriy__cards-contain .kategoriy__cards .kategori__container-img {
+  background: rgba(217, 46, 21, 0.0588235294);
+  padding: 8px;
+  border-radius: 10px;
+}
+.kategoriy .kategoriy__cards-contain .kategoriy__cards a {
+  margin-left: 10px;
+  color: #252525;
+}
+
+.sidebar {
+  background: rgba(230, 230, 230, 0.3);
+}
+.sidebar .sidebar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar .sidebar__container .sidebar__container__phone a:first-child {
+  margin-right: 30px;
+}
+.sidebar .sidebar__container .sidebar__container__phone a {
+  color: rgba(79, 79, 79, 0.7);
+}
+.sidebar .sidebar__container .sidebar__container__phone a img {
+  margin-right: 10px;
+}
+.sidebar .sidebar__container .sidebar__container__phone a:hover {
+  color: rgb(79, 79, 79);
+}
+
+.sidebar__container__menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sidebar__container__menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-top: 15px;
+}
+.sidebar__container__menu ul a {
+  color: rgba(79, 79, 79, 0.7);
+  transition: all 0.5s;
+}
+.sidebar__container__menu ul a:hover {
+  color: rgb(79, 79, 79);
+}
+.sidebar__container__menu select {
+  margin-right: -80px;
+  margin-left: 50px;
+  border: none;
+  border-radius: 6px;
+}
+
+.telivizorlar {
+  max-width: 1440px;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  gap: 20px;
+  padding-bottom: 300px;
+  margin-bottom: 32px;
+  padding-right: auto;
+}
+.telivizorlar .telivizorlar__insklopedia {
+  max-width: 220px;
+  height: 190px;
+  padding: 12px;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.telivizorlar .telivizorlar__insklopedia .button {
+  color: #fff;
+  padding: 6px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgb(34, 184, 34);
+}
+.telivizorlar .telivizorlar__insklopedia .oyiga {
+  color: rgb(1, 19, 97);
+  padding: 5px;
+  border: 1px solid rgb(1, 19, 97);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.telivizorlar .telivizorlar__insklopedia > img {
+  margin-top: 5px;
+}
+.telivizorlar .telivizorlar__insklopedia p {
+  color: gray;
+  margin-top: 20px;
+}
+.telivizorlar .telivizorlar__insklopedia .telivizorlar__insklopedi-img {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.telivizorlar .telivizorlar__insklopedia .telivizorlar__insklopedi-img span {
+  color: gray;
+  margin-left: 3px;
+}
+.telivizorlar .telivizorlar__insklopedia .telivizorlar__insklopedi-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 8px;
+}
+.telivizorlar .telivizorlar__insklopedia .telivizorlar__insklopedi-buttonds__buton1 {
+  background-color: red;
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.telivizorlar .telivizorlar__insklopedia .telivizorlar__insklopedi-buttonds__buton1:hover {
+  background-color: rgb(255, 77, 77);
+}
+.telivizorlar .telivizorlar__insklopedia .telivizorlar__insklopedi-buttonds__buton2 {
+  background-color: rgb(185, 185, 185);
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.telivizorlar .telivizorlar__insklopedia .telivizorlar__insklopedi-buttonds__buton2:hover {
+  background-color: rgb(235, 235, 235);
+}
+
+.heroo__container {
+  max-width: 1440px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 250px;
+}
+.heroo__container .heroo__container-info {
+  max-width: 1440px;
+  gap: 20px;
+  display: flex;
+}
+.heroo__container h2 {
+  margin-bottom: 20px;
+}
+.heroo__container .heroo__insklopedia {
+  max-width: 250px;
+  height: 190px;
+  padding: 12px;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.heroo__container .heroo__insklopedia .button {
+  color: #fff;
+  padding: 6px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  background-color: rgb(255, 0, 0);
+}
+.heroo__container .heroo__insklopedia img {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+.heroo__container .heroo__insklopedia .oyiga {
+  color: rgb(1, 19, 97);
+  padding: 5px;
+  border: 1px solid rgb(1, 19, 97);
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.heroo__container .heroo__insklopedia p {
+  color: gray;
+  margin-top: 20px;
+}
+.heroo__container .heroo__insklopedia .heroo__insklopedi-img {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.heroo__container .heroo__insklopedia .heroo__insklopedi-img span {
+  color: gray;
+  margin-left: 3px;
+}
+.heroo__container .heroo__insklopedia .heroo__insklopedi-buttons {
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+  gap: 8px;
+}
+.heroo__container .heroo__insklopedia .heroo__insklopedi-buttonds__buton1 {
+  background-color: red;
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 1px;
+  padding-left: 16px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.heroo__container .heroo__insklopedia .heroo__insklopedi-buttonds__buton1:hover {
+  background-color: rgb(248, 58, 58);
+}
+.heroo__container .heroo__insklopedia .heroo__insklopedi-buttonds__buton2 {
+  background-color: rgb(185, 185, 185);
+  padding-top: 10px;
+  padding-right: 16px;
+  padding-bottom: 1px;
+  padding-left: 16px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.heroo__container .heroo__insklopedia .heroo__insklopedi-buttonds__buton2:hover {
+  background-color: rgb(236, 236, 236);
+}
+
+.hero__buttom {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.hero__buttom h2 {
+  margin-bottom: 30px;
+}
+.hero__buttom .hero__buttom-container {
+  max-width: 1440px;
+  display: flex;
+  align-items: center;
+}
+.hero__buttom .hero__buttom-noutbuk {
+  max-width: 250px;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 12px;
+}
+.hero__buttom .hero__buttom-noutbuk .som {
+  padding: 5px;
+  color: rgb(255, 98, 7);
+  background-color: rgb(255, 219, 197);
+  border-radius: 10px;
+}
+.hero__buttom .hero__buttom-noutbuk p {
+  margin-top: 15px;
+}
+.hero__buttom .hero__buttom-noutbuk .heroo__buttom-img {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+.hero .hero-links__content {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.hero .hero-links__content a {
+  background: #dfdfdf;
+  color: #363636;
+  padding: 5px 20px;
+  border-radius: 16px;
+}
+.hero .hero-links__content a:hover {
+  background: #cbcbcb;
+}
+.hero .hero-links__content a:first-child {
+  background: #00013a;
+  color: #fff;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.summa__container-img {
+  max-width: 1140px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+}
+.summa__container-img img {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.summa__container {
+  max-width: 1140px;
+  min-height: 414px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+}
+.summa__container .summa__container_things {
+  margin-bottom: 52px;
+}
+.summa__container .summa__container_things .summa__container_things-picking {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+}
+.summa__container .summa__container_things .summa__container_things-picking a {
+  text-decoration: none;
+  color: rgb(151, 147, 147);
+  padding: 9px;
+  border-radius: 25px;
+  background-color: rgb(230, 230, 230);
+  transition: all 0.5s ease;
+}
+.summa__container .summa__container_things .summa__container_things-picking a:hover {
+  background-color: black;
+  color: rgb(230, 230, 230);
+}
+.summa__container .summac__container-device {
+  display: flex;
+  gap: 20px;
+}
+.summa__container .summa__container_electrical {
+  max-width: 215px;
+  border: 1px solid transparent;
+  padding: 12px;
+  transition: all 0.5s;
+}
+.summa__container .summa__container_electrical:hover {
+  border: 1px solid rgb(230, 230, 230);
+  border-radius: 20px;
+  box-shadow: 5px 5px 50px 10px rgb(230, 230, 230);
+}
+.summa__container .summa__container_electrical .summa__container_electrical-amount {
+  margin-top: 23px;
+}
+.summa__container .summa__container_electrical .summa__container_electrical-amount .summa__container_electrical-amount--img {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.summa__container .summa__container_electrical .summa__container_electrical-amount .summa__container_electrical-amount--img a {
+  text-decoration: none;
+  height: 17px;
+  align-items: center;
+  gap: 5px;
+  display: flex;
+}
+.summa__container .summa__container_electrical .summa__container_electrical-amount .summa__container_electrical-amount--img a span {
+  color: gray;
+  margin-left: 8px;
+}
+.summa__container .summa__container_electrical .summa__container_electrical-amount .summa__container_electrical:hover {
+  border: 1px solid black;
+}
+.summa__container .summa__container_electrical .summa__container_electrical-buttond {
+  text-decoration: none;
+  align-items: center;
+  gap: 8px;
+}
+.summa__container .summa__container_electrical .summa__container_electrical-buttond a {
+  text-decoration: none;
+  margin-right: 5px;
+}
+.summa__container .summa__container_electrical .summa__container_electrical-buttond .summa__container_electrical-buttond__buton1 {
+  background-color: red;
+  padding: 10px 16px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+.summa__container .summa__container_electrical .summa__container_electrical-buttond .summa__container_electrical-buttond__buton1:hover {
+  background-color: rgb(248, 57, 57);
+}
+.summa__container .summa__container_electrical .summa__container_electrical-buttond .summa__container_electrical-buttond__buton2:hover {
+  background-color: rgb(211, 208, 208);
+}
+.summa__container .summa__container_electrical .summa__container_electrical-buttond .summa__container_electrical-buttond__buton2 {
+  background-color: rgb(230, 230, 230);
+  padding: 10px 14px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}/*# sourceMappingURL=main.css.map */

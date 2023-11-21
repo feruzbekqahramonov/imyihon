@@ -1,0 +1,55 @@
+.navigation {
+    margin-bottom: 30px;
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        a {
+            color: #535353;
+
+            &:hover {
+                color: #000;
+            }
+        }
+
+        li:first-child {
+            a {
+                background: rgb(129, 215, 0);
+                color: #fff;
+                padding: 5px 10px;
+                border-radius: 16px;
+                &:hover {
+                    background: rgba(129, 215, 0, 0.6);
+                }
+            }
+        }
+    }
+}
+
+.kategoriy {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    .kategoriy__cards-contain {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 20px;
+        .kategoriy__cards {
+            .kategori__container-img {
+                background: #D92E150F;
+                padding: 8px;
+                border-radius: 10px;
+            }
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border: 2px solid #dadada;
+            padding: 25px 15px;
+            border-radius: 20px;
+            a {
+                margin-left: 10px;
+                color: #252525;
+            }
+        }
+    }
+}

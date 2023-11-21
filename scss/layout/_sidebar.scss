@@ -1,0 +1,52 @@
+.sidebar {
+    background: rgba(230, 230, 230, 0.3);
+
+    .sidebar__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .sidebar__container__phone a:first-child {
+            margin-right: 30px;
+        }
+
+        .sidebar__container__phone a {
+            color: rgba(79, 79, 79, 0.7);
+
+            img {
+                margin-right: 10px;
+            }
+
+            &:hover {
+                color: rgb(79, 79, 79);
+            }
+        }
+    }
+}
+
+.sidebar__container__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        margin-top: 15px;
+        a {
+            color:rgba(79, 79, 79, 0.7);
+            transition: all 0.5s;
+            &:hover {
+                color: rgb(79, 79, 79);
+            }
+        }
+    }
+    select {
+        margin-right: -80px;
+        margin-left: 50px;
+
+        border: none;
+        border-radius: 6px;
+    }
+}

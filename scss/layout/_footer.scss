@@ -1,0 +1,19 @@
+.footer {
+    background-color: rgb(211, 211, 211);
+    background-image: url(../../img/bacground.png);
+    background-repeat: no-repeat;
+    background-position: 100% 10%;
+}
+
+.footer__container {
+    max-width: 1440px;
+    padding: 45px 15px 0px;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+        margin-top: 15px;
+    }
+    .footer__container_link {
+        gap: 10px;
+    }
+}
